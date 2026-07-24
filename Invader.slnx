@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Invader/Invader.vcxproj" />
+  <Project Path="Invader/Invader.vcxproj" Id="e79a0b41-5f07-4968-8d1e-71b25aa7aebd" />
 </Solution>
