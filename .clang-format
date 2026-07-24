@@ -1,0 +1,31 @@
+---
+Language: Cpp
+BasedOnStyle: Microsoft
+
+# インデントはタブ幅4（Visual Studio のC/C++既定に合わせる）
+UseTab: Always
+TabWidth: 4
+IndentWidth: 4
+
+# 波括弧は必ず改行して次の行に（Allman）
+BreakBeforeBraces: Allman
+
+# 1行に詰めない
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+
+# 行末コメントの前は既存のスペース数を尊重しつつ最低1つ
+SpacesBeforeTrailingComments: 1
+
+# 日本語コメントで折り返されると崩れるので改行しない
+ColumnLimit: 0
+ReflowComments: false
+
+# ポインタは int *p ではなく int* p 寄せ（お好みで Right に変更可）
+PointerAlignment: Left
+
+SortIncludes: false
+---
