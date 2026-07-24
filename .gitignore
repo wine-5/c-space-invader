@@ -37,6 +37,11 @@ x86/
 *.pch
 *.ipch
 
+# ---- NuGet (DxLib 本体はここに展開される / restore で復元可能) ----
+packages/
+*.nupkg
+!**/packages/build/
+
 # ---- エディタ / OS ----
 .vscode/
 *.swp
